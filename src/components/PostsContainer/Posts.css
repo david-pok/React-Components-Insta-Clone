@@ -4,7 +4,7 @@
   min-width: 400px;
   margin: 5px auto;
 }
-.post-header{
+.post-header {
   display: flex;
   align-items: center;
 }
@@ -53,4 +53,16 @@
   width: 100px;
   margin: 15px 0px;
   font-size: 16px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+button:active {
+  border: none;
+  outline: none;
+  background: none;
 }
